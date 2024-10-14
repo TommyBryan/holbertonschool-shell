@@ -1,2 +1,2 @@
 #!/bin/bash
-$ ./0current_working_directory/basics
+pwd
