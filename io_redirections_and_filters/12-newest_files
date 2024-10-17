@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt --time=mod | head -n 11
+echo -lt --time=mod | head -n 11
