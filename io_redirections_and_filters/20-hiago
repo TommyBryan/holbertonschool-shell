@@ -1,2 +1,2 @@
 #!/bin/bash
-tr-di 'cC'
+tr-d 'cC'
