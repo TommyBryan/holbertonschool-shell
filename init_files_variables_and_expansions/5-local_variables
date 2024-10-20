@@ -1,0 +1,2 @@
+#!/bin/bash
+{ echo "Environment Variables:"; printenv; echo; echo "Local Variables:"; declare -p | grep 'declare -x'; echo; echo "Functions:"; declare -f; }
