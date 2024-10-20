@@ -1,3 +1,2 @@
 #!/bin/bash
-( echo "Local Variables:"; set; echo; echo "Environment Variables:"; env; echo; echo "Functions:"; declare -f )
-
+printenv | set | declare -F 
