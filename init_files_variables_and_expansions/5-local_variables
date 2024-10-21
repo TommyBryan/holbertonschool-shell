@@ -1,2 +1,2 @@
 #!/bin/bash
-printenv | set | declare -f 
+declare -p | grep 'declare --' | awk '{print $3}' 
