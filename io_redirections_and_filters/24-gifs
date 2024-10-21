@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -iname "*.gif" | awk '{sub(/\.gif$/, "", $0); print}' | sort -f | awk '1; END {print ""}'
+find . -type f -iname "*.gif" -exec sh -c 'for f; do printf "%s\n" "${f%.gif}"; done' sh {} + | sort -f
