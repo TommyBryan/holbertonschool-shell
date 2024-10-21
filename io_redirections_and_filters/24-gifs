@@ -1,3 +1,2 @@
 #!/bin/bash
 find . -type f -iname "*.gif" | awk '{sub(/\.gif$/, "", $0); print}' | sort -f | awk '1; END {print ""}'
-
